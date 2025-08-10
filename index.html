@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teja Sri - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Teja Sri</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <h1>Hi, I'm <span>Teja Sri Veeranki</span></h1>
+        <h3>MERN Stack Enthusiast</h3>
+        <p>I build secure, scalable full-stack applications using modern JavaScript frameworks with a focus on performance and user experience.</p>
+        <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="resume-buttons">
+            <a href="#" class="btn">View Resume</a>
+            <a href="#" class="btn-secondary">Download Resume</a>
+        </div>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>Programming: Python, Basics of Java, HTML, CSS, JavaScript</li>
+            <li>Databases: MySQL</li>
+            <li>Developer Tools: Git/GitHub, VS Code</li>
+        </ul>
+
+        <h3>Certifications</h3>
+        <ul>
+            <li>Frontend Development - GUVI (2023)</li>
+            <li>Python Programming - Cisco (2023)</li>
+            <li>MySQL Basics - Scaler (2024)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <strong>🏨 Hostel Management System</strong>
+                <p>Designed and implemented a Hostel Home Outing Management System to streamline student check-in/out processes. 
+                Built with MySQL for database management and Node.js for backend development, improving efficiency by automating manual tasks.</p>
+                <a href="https://github.com/tejasri714" target="_blank">GitHub</a>
+            </div>
+            <div class="card">
+                <strong>📝 ToDo List</strong>
+                <p>A web-based to-do application that helps users manage daily tasks effectively. Ensures all tasks are noted in one place 
+                to avoid forgetting important items.</p>
+                <a href="https://github.com/tejasri714" target="_blank">GitHub</a>
+            </div>
+            <div class="card">
+                <strong>🔐 Random Password Generator</strong>
+                <p>Developed a tool to generate strong, unique passwords to enhance user security, reducing vulnerability to common password-based attacks.</p>
+                <a href="https://github.com/tejasri714" target="_blank">GitHub</a>
+            </div>
+            <div class="card">
+                <strong>📊 Customer Churn Prediction</strong>
+                <p>Completed a machine learning project predicting customer churn based on historical usage and behavioral data. 
+                Built with Python using Decision Trees, with a focus on data cleaning, feature engineering, and model evaluation.</p>
+                <a href="https://github.com/tejasri714" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="you@example.com" required>
+            <textarea id="message" placeholder="Your message..." required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

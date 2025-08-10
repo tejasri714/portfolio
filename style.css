@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d1b2a;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b263b;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4da8da;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home-section h1 span {
+    color: #4da8da;
+}
+
+.btn {
+    background-color: #4da8da;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-secondary {
+    background-color: #1abc9c;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.about-section, .projects-section, .contact-section {
+    padding: 50px;
+}
+
+.card {
+    background-color: #1b263b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
